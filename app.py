@@ -26,7 +26,8 @@ def load_data():
     data = data.set_index("time")
     data = data.sort_index()
     return data
-    
+# Mejora de documentacion realizada en la rama daniel-viz
+# Esta funcion carga, transforma y organiza los datos de energia.   
 
 # Cargar datos
 data = load_data()
